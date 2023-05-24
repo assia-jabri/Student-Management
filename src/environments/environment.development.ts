@@ -11,6 +11,9 @@ export interface Environment {
     };
 }
 
+// I should set the production to true when I want to deploy it
+// production = false for debugging purposes but it leadds
+// to slow performance If I deploy it with false 
 
 export const environment: Environment = {
     production: false,
